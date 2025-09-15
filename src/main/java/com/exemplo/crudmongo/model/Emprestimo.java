@@ -3,18 +3,18 @@ package com.exemplo.crudmongo.model;
 import java.time.LocalDate;
 
 public class Emprestimo {
-private int idEmprestimo;
+private String idEmprestimo;
 private int matriculaAluno;
 private int idLivro;
 private LocalDate dataRetirada;
 private LocalDate dataDevolucao;
 private float multaEmprestimo;
 
-public int getIdEmprestimo() {
+public String getIdEmprestimo() {
     return idEmprestimo;
 }
 
-public void setIdEmprestimo(int idEmprestimo) {
+public void setIdEmprestimo(String idEmprestimo) {
     this.idEmprestimo = idEmprestimo;
 }
 

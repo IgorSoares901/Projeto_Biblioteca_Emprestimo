@@ -3,7 +3,7 @@ package com.exemplo.crudmongo.model;
 import java.time.LocalDate;
 
 public class Livro {
-private int idLivro;
+private String idLivro;
 private String tituloLivro;
 private String autorLivro;
 private LocalDate anoPublicacao;
@@ -11,10 +11,10 @@ private int numeroPaginas;
 private String generoLivro;
 private int estoqueLivro;
 // getters and setters
-public int getidLivro() {
+public String getidLivro() {
     return idLivro;
 }
-public void setidLivro(int idLivro) {
+public void setidLivro(String idLivro) {
     this.idLivro = idLivro;
 }
 

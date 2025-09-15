@@ -1,16 +1,16 @@
 package com.exemplo.crudmongo.model;
 public class Aluno {
-private int matriculaAluno;
+private String matriculaAluno;
 private String nomeAluno;
 private String cursoAluno;
 private String emailAluno;
 private String telefoneAluno;
 
 // getters and setters
-public int getMatriculaAluno() {
+public String getMatriculaAluno() {
     return matriculaAluno;
 }
-public void setMatriculaAluno(int matriculaAluno) {
+public void setMatriculaAluno(String matriculaAluno) {
     this.matriculaAluno = matriculaAluno;
 }
 
